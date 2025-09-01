@@ -1,10 +1,13 @@
 # Ice Cream Base Calculator
 
 <!-- badges: start -->
-![Tests](https://img.shields.io/github/actions/workflow/status/bethouxa/ice-cream-base-calc/python-package.yml?label=tests)
+[![Lint & test](https://github.com/bethouxa/ice-cream-base-calc/actions/workflows/python-package.yml/badge.svg)](https://github.com/bethouxa/ice-cream-base-calc/actions/workflows/python-package.yml)
+[![CodeQL](https://github.com/bethouxa/ice-cream-base-calc/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/bethouxa/ice-cream-base-calc/actions/workflows/github-code-scanning/codeql)
 <!-- badges: end -->
 
 A Python tool to calculate the required amounts of milk, cream, and sugar for ice cream base preparation, with support for various milk/cream fat percentages (because I don't always stock whole milk and cream fat % aren't the same as in many recipes I could find) and optional ingredients like egg yolks or liquid flavorings like coffee.
+
+I'm also using this project as an excuse to mess around with github actions.
 
 This project was AI-assisted, see disclaimer below.
 
