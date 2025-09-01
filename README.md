@@ -1,26 +1,8 @@
 # Ice Cream Base Calculator
 
-A Python tool to calculate the required amounts of milk, cream, and sugar for ice cream base preparation, with support for various milk/cream types and optional ingredients like egg yolks.
+A Python tool to calculate the required amounts of milk, cream, and sugar for ice cream base preparation, with support for various milk/cream fat percentages (because I don't always stock whole milk and cream fat % aren't the same as in many recipes I could find) and optional ingredients like egg yolks or liquid flavorings like coffee.
 
-## Overview
-
-This calculator helps determine the precise quantities of ingredients needed to achieve target fat and sugar percentages in an ice cream base. It handles:
-
-- Different types of milk and cream with varying fat contents
-- Sugar content calculations
-- Additional liquid ingredients
-- Optional egg yolks
-- Mass balance verification
-
-## Features
-
-- Precise calculations based on fat and sugar percentages
-- Support for:
-  - Various milk types (whole, skim, low-fat)
-  - Different cream types (heavy, light, whipping)
-  - Additional liquid ingredients
-  - Egg yolk incorporation
-- Comprehensive test suite verifying calculations for various recipes
+This project was AI-assisted, see disclaimer below.
 
 ## Usage
 
@@ -42,36 +24,22 @@ result = ice_cream_base_calculator(
 print(result)
 ```
 
-## AI Assistance Disclaimer
+The script also has an interactive mode when ran as a script:
 
-This project was developed with significant assistance from AI, specifically GitHub Copilot in Visual Studio Code, under human supervision. This was done intentionally as a personal project to:
-
-1. Test the viability of AI-assisted coding
-2. Evaluate AI agent integration within VS Code
-3. Explore best practices for human-AI collaboration in software development
-
-The human role involved:
-
-- Defining the project requirements and scope
-- Reviewing and validating the mathematical calculations
-- Supervising the code structure and organization
-- Verifying test coverage and accuracy
-- Making final decisions on implementation choices
-
-This approach allowed for rapid development while maintaining code quality through human oversight and validation. The project serves as a practical example of how AI tools can be effectively integrated into the development workflow while ensuring the final product meets professional standards.
+```bash
+./ice_cream_base.py
+```
 
 ## Testing
-
-The project includes a comprehensive test suite that verifies calculations for various recipe scenarios:
-
-- Basic recipes with whole milk and heavy cream
-- Skim milk and light cream combinations
-- Low-fat milk with whipping cream
-- Recipes with additional liquid ingredients
-- Recipes incorporating egg yolks
 
 Run the tests using pytest:
 
 ```bash
 pytest test_ice_cream_base.py -v
 ```
+
+## AI Assistance Disclaimer
+
+This project was mostly vibe coded (developed with significant assistance from an LLM agent) as a personal project to try out and test agent reliability and integration into VS Code.
+
+The code is fully endorsed by me. An LLM is only a tool as any other and I am solely to blame if code I wrote using an LLM is inaccurate or erroneous, just as it would if I blindly trusted my IDE's autocomplete features.
